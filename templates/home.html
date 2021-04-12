@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <center>
+        <h1>Enter information to Predict class</h1>
+            <form method="POST", action="{{url_for('predict')}}">
+                <b>First value :<input type="text" name="1" placeholder="Enter first input"><br><br>
+                Second value :<input type="text" name="2" placeholder="Enter second input"><br><br>
+                Third value :<input type="text" name="3" placeholder="Enter third input"><br><br>
+                Fourth value :<input type="text" name="4" placeholder="Enter fourth input"><br><br>
+                <input type="submit" value="predict now">
+            </form>
+        </center>
+    </body>
+</html>
